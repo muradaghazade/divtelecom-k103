@@ -1,0 +1,119 @@
+@media (min-width: 320px) and (max-width: 760px) {
+    .imgreklam {
+        width: 360px;
+    }
+
+    .col-md-3 {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 50px;
+    }
+
+    .phone {
+        width: 350px;
+        margin-top: 0px !important;
+    }
+
+    .phones {
+        margin-bottom: 20px;
+    }
+
+    .iphone {
+        width: 150px;
+        margin-right: 10px !important;
+    }
+    .storages-div {
+        display: block !important;
+    }
+    
+    .storages {
+        margin: 20px;
+    }
+
+    .basket-add {
+        margin-bottom: 20px;
+    }
+
+    .specs-comment {
+        margin-top: 0 !important;
+    }
+
+    .nav-tabs li {
+        margin-right: 0 !important;
+    }
+
+    #home-tab {
+        font-size: 16px;
+    }
+
+    #profile-tab {
+        font-size: 16px;
+    }
+
+    .tab-pane {
+        padding-left: 0 !important;
+    }
+
+    .tech-div {
+        width: 100%;
+    }
+
+    .c-form {
+        width: 100%;
+    }
+
+    .first-last {
+        display: block;
+    }
+
+    .inp {
+        width: 100%;
+    }
+    
+    .m-l-div {
+        width: 100% !important;
+    }
+
+    .message-inp {
+        width: 100% !important;
+    }
+
+    .list-cols {
+        display: block;
+    }
+    
+    .list-cont {
+        padding: 20px !important;
+    }
+    
+    .reg-inp-cont {
+        width: 100% !important;
+    }
+    .reg-inp {
+        width: 100% !important;
+    }
+
+    .reg-log {
+        width: 100% !important;
+    }
+
+    .illustrations img {
+        width: 300px !important;
+    }
+    
+    .dots {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    .nav-inp {
+        width: 100% !important;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+}
+
