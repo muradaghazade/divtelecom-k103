@@ -52,7 +52,7 @@
 .reg-btn {
     border: none;
     height: 48px;
-    width: 390px;
+    width: 410px !important;
     background-color: #2DD06E;
     border-radius: 8px;
     color: white;
