@@ -145,5 +145,17 @@
     .idea2 {
         margin-top: 40px !important;
     }
+
+    .fav-col {
+        display: flex;
+        justify-content: center;
+    }
+    .order-info-button {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .order-card {
+        padding-right: 20px  !important;
+    }
 }
 
