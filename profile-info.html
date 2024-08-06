@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/favorite.css">
     <link rel="stylesheet" href="./css/list.css">
     <link rel="stylesheet" href="./css/orders.css">
+    <link rel="stylesheet" href="./css/profile.css">
     <style>
         .card:hover {
      transform: scale(1.1); 
@@ -85,7 +86,6 @@
 
     </div>
     <hr style="background-color: #38ff87; margin-bottom: 0;">
-
     <div class="favs">
         <div class="container">
             <div class="row">
@@ -93,94 +93,74 @@
                     <div class="fav-links">
                         <h3 style="color: #4f4f4f; font-size: 20px;">Profilim</h3>
                         <ul>
-                            <li class="fav-item"><a style="color: #2DD06E;" href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/shopping-cart-green.svg" alt="">Sifarişlərim</a></li>
+                            <li class="fav-item"><a href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/cart.svg" alt="">Sifarişlərim</a></li>
                             <li class="fav-item"><a href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/heart.svg" alt="">Favorilərim</a></li>
-                            <li class="fav-item"><a href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/person.svg" alt="">Şexsi melumatlar</a></li>
+                            <li class="fav-item"><a style="color: #2DD06E;" href=""><img class="fav-img" src="./img/user.png" alt="">Şexsi melumatlar</a></li>
                             <li class="fav-item"><a href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/pin.svg" alt="">Çatdırılma ünvanı</a></li>
                             <li class="fav-item"><a href=""><img class="fav-img" src="https://muradaghazade.github.io/phones/img/log-out.svg" alt="">Çıxış</a></li>
                         </ul>
                     </div>
                 </div>
                 <div style="padding-top: 50px;" class="col-md-9">
-                    <span style="font-size: 20px; color: #4F4F4F;"><img src="https://muradaghazade.github.io/phones/img/arrow-left.svg" alt="">Siparişin Detalları</span>
-                    <div class="order-main">
-                        <div class="order-detail">
-                            <img style="width: 215px;" src="./img/iphone_15_pro_natural_titanium_pdp_image_position-1__wwen-removebg-preview_1.png" alt="">
-                            <div class="order-detail-pro">
-                                 <h5 class="order-card-title">iPhone 12, 64 GB, Bənövşəyi, (MJNM3) Golden 5 G 8690604083886 0212042
-                                </h5>
-                                <div style="display: flex;">
-                                    <div>
-                                     <span style="color: #828282; font-size: 12px;">Rəng:</span>
-                                     <p style="font-size: 14px;">Sari</p>
-                                    </div>
-                                    <div style="margin-left: 40px;">
-                                        <span style="color: #828282; font-size: 12px;">Sifarişin tarixi</span>
-                                        <p style="font-size: 14px;">1.08.2024</p>
-                                    </div>
+                    <h1 style="font-size: 20px; color: #4f4f4f; margin-bottom: 20px;">Şəxsi məlumatlar</h1>
+                    <div class="profile-form">
+                        <form action="">
+                            <div class="flex-inps">
+                                <div class="p-form-inps">
+                                    <label for="firstname">Ad</label>
+                                    <input type="text" class="profile-inp" name="firstname" placeholder="Adınızı daxil edin">
                                 </div>
-                                <div style=" display: flex; ">
-                                    <div class="order-detail-x2">
-                                        <span style="color: #828282; font-size: 12px;">Yaddaş</span>
-                                        <p style="font-size: 14px;">128 GB</p>
-                                    </div>
-                                    <div style="margin-left: 40px;" class="order-detail-x2">
-                                        <span style="color: #828282; font-size: 12px;">Status:</span>
-                                        <p style="font-size: 14px;">Yoldadir</p>
-                                    </div>
+                                <div class="p-form-inps second-pf">
+                                    <label for="lastname">Soyad</label>
+                                    <input type="text" class="profile-inp" name="lastname" placeholder="Soyadınızı daxil edin">
                                 </div>
                             </div>
-                        </div>
-                        <div style="display: flex;" class="order-detail-pro-max" >
-                            <div class="order-detail-pro-pro">
-                                <h5 style="font-size: 20px; margin-bottom: 30px; color: #4F4F4F;  ">Şexsi Melumatlar</h5>
-                                <p style="color: #1D2123; margin-left: 20px;">Gunel</p>
-                                <p style="color: #1D2123; margin-left: 20px;">Mammadova</p>
-                                <p style="color: #1D2123; margin-left: 20px;">+994 77 566 73 27 </p>
-                                <p style="color: #1D2123; margin-left: 20px;">ulvinomerov1@gmail.com   </p>
+                            <div class="flex-inps">
+                                <div class="p-form-inps">
+                                    <label for="firstname">E-mail</label>
+                                    <input type="text" class="profile-inp" name="firstname" placeholder="nümunə@gmail.com">
+                                </div>
+                                <div class="p-form-inps second-pf">
+                                    <label for="lastname">Mobil nömrə</label>
+                                    <input type="text" class="profile-inp" name="lastname" placeholder="000-00-00">
+                                </div>
                             </div>
-                            <div style="margin-top: 50px; margin-left: 150px;" class="order-detail-pro-pro-pro">
-                                    <h5 style="font-size: 20px; margin-bottom: 30px; color: #4F4F4F; ">Çatdırılma Ünvanı</h5>
-                                    <p style="color: #1D2123; margin-left: 20px;">Bakı Şeheri</p>
-                                    <p style="color: #1D2123; margin-left: 20px;">Neriamnov Neriman rayonu</p>
-                                    <p style="color: #1D2123; margin-left: 20px;">Atatürk pr. 19, İnnoland İnkubasiya Mərkəzi </p>
-                                    <p style="color: #1D2123; margin-left: 20px;">Egov, Giriş 2</p>
+                            <div class="flex-inps">
+                                <div class="p-form-inps">
+                                    <label for="firstname">Dogum tarixi</label>
+                                    <input type="text" class="profile-inp" name="firstname" placeholder="Doğum tarixinizi seçin">
+                                </div>
+                                <div style="width: 280px;"></div>
                             </div>
-                        </div>
-                        <div class="payment-pro-max">
-                            <h5 style="color: #4F4F4F; margin-bottom: 30px;">Ödeme Detallari</h5>
-                            <div class="odeme-methodu">
-                                <span style="color: #828282;">Ödeme Methodu</span>
-                                <span><img style="margin-right: 5px;" src="https://muradaghazade.github.io/phones/img/card-green.svg" alt="">Kart İle</span>
+                            <div style="text-align: center;">
+                                <button class="profile-btn">Məlumatları yenilə</button>
                             </div>
-                            <div class="odeme-methodu">
-                                <span style="color: #828282;">Toplam Mebleğ</span>
-                                <span>1640 $</span>
-                            </div>
-                            <div class="odeme-methodu">
-                                <span style="color: #828282;">Tecili Çatdırılma</span>
-                                <span>5 $</span>
-                            </div>
-                            <div class="odeme-methodu">
-                                <span style="color: #828282;">Promo Kod</span>
-                                <span>-60 $</span>
-                            </div>
-                            
-                        </div>
-                        <div class="payment-finish">
-                        <h4 style="color: #4F4F4F; font-size: 20px; margin-top: 20px;">Cemi</h4>
-                        <div class="cemi">
-                            <span style="font-size: 20px;">1680 $</span>
-                        </div>
-                        </div>
-
+                        </form>
                     </div>
                     
+                    <h1 style="font-size: 20px; color: #4f4f4f; margin-top: 40px; margin-bottom: 20px;">Şifrəni yenilə</h1>
+                    <div class="password-form">
+                        <form action="">
+                            <div class="flex-inps">
+                                <div class="p-form-inps">
+                                    <label for="firstname">Cari şifrə</label>
+                                    <input type="text" class="profile-inp" name="firstname" placeholder="Cari şifrənizi daxil edin">
+                                </div>
+                                <div class="p-form-inps second-pf">
+                                    <label for="lastname">Yeni şifrə</label>
+                                    <input type="text" class="profile-inp" name="lastname" placeholder="Yeni şifrənizi daxil edin">
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <button class="profile-btn">Məlumatları yenilə</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
+    
 
     <footer class="text-center text-lg-start bg-body-tertiary bg-dark text-light pt-3">
 

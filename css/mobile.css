@@ -157,5 +157,41 @@
     .order-card {
         padding-right: 20px  !important;
     }
+    .order-detail-pro-max {
+        display: block !important;
+    }
+    .order-detail-pro-pro-pro {
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .order-detail {
+        display: block !important;
+    }
+
+    .order-detail img {
+        width: 340px !important;
+    }
+
+    .profile-form {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .password-form {
+        width: 100% !important;
+    }
+
+    .flex-inps {
+        display: block !important;
+    }
+
+    .second-pf {
+        margin-top: 30px !important;
+    }
+
+    .profile-btn {
+        font-size: 14px;
+    }
 }
 
